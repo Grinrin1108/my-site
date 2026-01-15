@@ -1,0 +1,49 @@
+site_name: NoneTitle
+theme:
+  name: material
+  palette:
+    # ライトモード用
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # ダークモード用
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+  features:
+    - navigation.expand    # 最初から左メニューを開く
+    - content.code.copy    # コードのコピーボタンを表示
+    - content.code.annotate # コード内に注釈を入れられる
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences # これがないとコードブロックが綺麗に出ないことがあります
+  - pymdownx.blocks.caption
+  - toc:
+      toc_depth: 2 # 右側のナビには ## まで表示する
+  - pymdownx.critic
+  - pymdownx.caret  # 上付き文字なども可能に
+  - pymdownx.mark   # これが蛍光ペン機能
+
+nav:
+  - 🏠 Home: index.md
+  - 💻 コマンド集:
+      - Windowsプロンプト: commands/windows.md
+      - Git操作: commands/git.md
+      - Docker操作: commands/docker.md
+  - 🏆 競プロ:
+      - テンプレ: competitive/template.md
+  - 🔗 リンク集: link.md
