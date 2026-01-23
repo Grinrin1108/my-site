@@ -45,5 +45,7 @@ nav:
       - Git操作: commands/git.md
       - Docker操作: commands/docker.md
   - 🏆 競プロ:
-      - テンプレ: competitive/template.md
+      - テンプレ: competitive_programming/template.md
+  - 🤖 ロボット:
+      - テンプレ: spike/template.md
   - 🔗 リンク集: link.md
