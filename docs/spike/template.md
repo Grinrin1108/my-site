@@ -1,7 +1,7 @@
 # 🤖 SPIKEテンプレート集
 
 ## ひながた
-``` python title="最初の呪文"
+``` python title="最初の呪文.py"
 import runloop
 import motor
 from hub import port
@@ -19,4 +19,10 @@ IMAI = port.E
 MV_DG = motor.run_for_degrees #角度を指定して進むやつ
 MV_P_DG = motor_pair.move_for_degrees #角度を指定して進むやつのペア
 SLEEP = runloop.sleep_ms
+```
+
+## ライントレース
+``` python title="ライントレース.py"
+import ~
+comming soon
 ```
