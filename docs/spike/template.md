@@ -1,6 +1,7 @@
 # 🤖 SPIKEテンプレート集
 
 ## ひながた
+必要なモジュールや、自分が分かりやすい変数のまとめ
 ``` python title="最初の呪文.py"
 import runloop
 import motor
