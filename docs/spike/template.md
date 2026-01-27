@@ -1,7 +1,7 @@
 # 🤖 SPIKEテンプレート集
 
 ## ひながた
-```
+``` python title="最初の呪文"
 import runloop
 import motor
 from hub import port
