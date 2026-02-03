@@ -39,6 +39,11 @@ markdown_extensions:
   - pymdownx.mark   # これが蛍光ペン機能
   - admonition
   - pymdownx.details  # 折りたたみ（???）が使えるようになります
+  - pymdownx.tasklist:
+      custom_checkbox: true  # 見た目を綺麗にする設定
+      clickable_checkbox: true # ブラウザ上でクリック可能にする（任意）
+  # ...他の設定（highlightやmarkなど）はそのまま残す
+
 
 
 nav:
