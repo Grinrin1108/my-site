@@ -5,5 +5,3 @@
 
 ## 問題集サイト
 * [AtCoder Problems](https://kenkoooo.com/atcoder/#/table/gurinrin) - AtCoderの問題集
-
-pcで編集したよ
