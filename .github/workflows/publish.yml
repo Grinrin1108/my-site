@@ -2,7 +2,7 @@ name: publish site
 on:
   push:
     branches:
-      - main  # mainブランチに保存されたら実行
+      - main
 permissions:
   contents: write
 jobs:
@@ -13,6 +13,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: 3.x
-      - run: pip install mkdocs-material 
-      # 他に拡張機能を使っている場合はここに追加（例: pip install pymdown-extensions）
+      - run: |
+          pip install mkdocs-material
+          pip install pymdown-extensions
       - run: mkdocs gh-deploy --force
