@@ -23,6 +23,7 @@ SLEEP = runloop.sleep_ms
 ```
 
 ## ライントレース
+ライントレースの方法
 ``` python title="ライントレース.py"
 import runloop
 import motor_pair
@@ -63,4 +64,11 @@ async def main():
     await line_trace()
 
 runloop.run(main())
+```
+
+## 色分け
+色分けの方法
+``` python title=“色分け.py”
+import runloop
+# coming soon
 ```
