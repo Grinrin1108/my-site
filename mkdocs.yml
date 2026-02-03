@@ -40,6 +40,9 @@ markdown_extensions:
 
 nav:
   - 🏠 Home: index.md
+  - 🗓️ Daily Log:
+      - 今月の記録: daily/2024-02.md
+      - 過去のログ: daily/index.md
   - 💻 コマンド集:
       - Windowsプロンプト: commands/windows.md
       - Git操作: commands/git.md
