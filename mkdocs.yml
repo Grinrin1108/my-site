@@ -37,6 +37,9 @@ markdown_extensions:
   - pymdownx.critic
   - pymdownx.caret  # 上付き文字なども可能に
   - pymdownx.mark   # これが蛍光ペン機能
+  - admonition
+  - pymdownx.details  # 折りたたみ（???）が使えるようになります
+
 
 nav:
   - 🏠 Home: index.md
