@@ -73,3 +73,5 @@ import runloop
 import motor_pair
 # coming soon
 ```
+
+ipadで編集したよ
