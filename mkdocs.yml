@@ -48,7 +48,8 @@ markdown_extensions:
 nav:
   - 🏠 Home: index.md
   - 🗓️ Daily Log:
-      - 今月の記録: daily/2026-02.md
+      - 今月の記録: daily/2026_02/index.md
+      - 集中レポート: daily/2026_02/reports.md
       - 過去のログ: daily/index.md
   - 💻 コマンド集:
       - Windowsプロンプト: commands/windows.md
