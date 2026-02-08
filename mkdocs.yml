@@ -22,6 +22,7 @@ theme:
     - navigation.expand    # 最初から左メニューを開く
     - content.code.copy    # コードのコピーボタンを表示
     - content.code.annotate # コード内に注釈を入れられる
+    - content.tooltips
 
 markdown_extensions:
   - pymdownx.tasklist:
