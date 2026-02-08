@@ -21,3 +21,17 @@ gantt
     第3・最終日 :crit, active, 2026-02-16, 2d
 
 ```
+
+```mermaid
+gantt
+    title 学年末テスト 戦略図
+    dateFormat  YYYY-MM-DD
+    section テスト本番
+    第1・2日 :crit, active, 2026-02-12, 2d
+    第3・最終日 :crit, active, 2026-02-16, 2d
+    
+    section 勉強の山場
+    数学・物理の演習 :2026-02-08, 3d
+    英語・国語の暗記 :2026-02-11, 2d
+    社会の最終確認   :2026-02-14, 2d
+```
