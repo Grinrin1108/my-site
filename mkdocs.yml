@@ -37,7 +37,7 @@ markdown_extensions:
       custom_fences:
         - name: mermaid
           class: mermaid
-          format: !!python/name:pymdownx.superfences.mermaid_format
+          format: !!python/name:pymdownx.superfences.fence_code_format # ここをこれに書き換える
   - pymdownx.blocks.caption
   - toc:
       toc_depth: 2 # 右側のナビには ## まで表示する
