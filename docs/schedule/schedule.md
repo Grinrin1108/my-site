@@ -14,12 +14,24 @@
 ```mermaid
 gantt
     title 学年末テスト 戦略図
-    dateFormat  YYYY-MM-DD
+    dateFormat MM-DD
+
     section テスト本番
     数学（前段） :crit, active, 2026-02-12, 1d
     英語（論表） :crit, active, 2026-02-12, 1d
     情報 :crit, active, 2026-02-12, 1d
+
+    日本史 :crit, active, 2026-02-13, 1d
+    国語（前段） :crit, active, 2026-02-13, 1d
     
+    公共 :crit, active,2026-02-16, 1d
+    化学 :crit, active,2026-02-16, 1d
+    国語（後段） :crit, active,2026-02-16, 1d
+
+    物理 :crit, active, 2026-02-17, 1d
+    数学（後段） :crit, active, 2026-02-17, 1d
+    英語（コミュ） :crit, active, 2026-02-17, 1d
+
     section 勉強の山場
     数学・物理の演習 :2026-02-08, 3d
     英語・国語の暗記 :2026-02-11, 2d
