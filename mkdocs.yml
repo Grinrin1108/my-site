@@ -33,7 +33,11 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.snippets
-  - pymdownx.superfences # これがないとコードブロックが綺麗に出ないことがあります
+  - pymdownx.superfences: # これがないとコードブロックが綺麗に出ないことがあります
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.mermaid_format
   - pymdownx.blocks.caption
   - toc:
       toc_depth: 2 # 右側のナビには ## まで表示する
