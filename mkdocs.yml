@@ -50,10 +50,6 @@ markdown_extensions:
   
   # ...他の設定（highlightやmarkなど）はそのまま残す
 
-extra_javascript:
-  - https://unpkg.com/mermaid/dist/mermaid.min.js
-  - javascripts/mermaid.js
-
 nav:
   - 🏠 Home: index.md
   - 📅 予定表: schedule/schedule.md
