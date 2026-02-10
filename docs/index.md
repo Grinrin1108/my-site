@@ -33,8 +33,8 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
         spike/          # Spike
             template.md # Spikeのテンプレート
 
-        index.md  # The documentation homepage.
+        index.md    # The documentation homepage.
         
         link.md # リンク集
     
-    mkdocs.yml    # The configuration file.
+    mkdocs.yml  # The configuration file.
