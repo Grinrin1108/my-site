@@ -11,7 +11,30 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
-    mkdocs.yml    # The configuration file.
+    .github/workflows/publish.yml
+
     docs/
+        commands/   # 様々な媒体のコマンドのまとめ
+            docker.md   # MkDocsのコマンド
+            git.md  # gitのコマンド
+            window.md   # コマンドプロンプトのコマンド
+
+        competitive_programming/    # 競プロ
+            template.md # 競プロのテンプレート
+
+        daily/  DailyLog
+            # 月ごとにファイルが分けられている
+            # それぞれに画像ファイル、index.md、reports.mdが入っている
+            index.md    # 過去の記録
+
+        schedule/   # スケジュール
+            schedule.md # スケジュール
+
+        spike/  # Spike
+            template.md # Spikeのテンプレート
+
         index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+        
+        link.md # リンク集
+    
+    mkdocs.yml    # The configuration file.
