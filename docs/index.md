@@ -11,26 +11,26 @@ For full documentation visit [mkdocs.org](https://www.mkdocs.org).
 
 ## Project layout
 
-    .github/workflows/publish.yml
+    .github/workflows/publish.yml # 初動の設定
 
     docs/
-        commands/   # 様々な媒体のコマンドのまとめ
+        commands/       # 様々な媒体のコマンドのまとめ
             docker.md   # MkDocsのコマンド
-            git.md  # gitのコマンド
+            git.md      # gitのコマンド
             window.md   # コマンドプロンプトのコマンド
 
         competitive_programming/    # 競プロ
-            template.md # 競プロのテンプレート
+            template.md             # 競プロのテンプレート
 
-        daily/  DailyLog
-            # 月ごとにファイルが分けられている
-            # それぞれに画像ファイル、index.md、reports.mdが入っている
+        daily/          #DailyLog
+            2026/02/    # 月ごとにファイルが分けられている
+                        # それぞれに画像ファイル、index.md、reports.mdが入っている
             index.md    # 過去の記録
 
-        schedule/   # スケジュール
+        schedule/       # スケジュール
             schedule.md # スケジュール
 
-        spike/  # Spike
+        spike/          # Spike
             template.md # Spikeのテンプレート
 
         index.md  # The documentation homepage.
