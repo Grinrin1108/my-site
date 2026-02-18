@@ -53,6 +53,7 @@ markdown_extensions:
 nav:
   - 🏠 Home: index.md
   - 📅 予定表: schedule/schedule.md
+  - 📚 参考書管理: study/books.md
   - 🗓️ Daily Log:
       - 今月の記録: daily/2026_02/index.md
       - 集中レポート: daily/2026_02/reports.md
