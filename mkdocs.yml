@@ -53,7 +53,12 @@ markdown_extensions:
 nav:
   - 🏠 Home: index.md
   - 📅 予定表: schedule/schedule.md
-  - 📚 参考書管理: study/books.md
+  - 📚 参考書管理:
+      - 全体進捗: study/index.md
+      - 📘 数学 (Focus Gold):
+          - 数学Ⅰ+A: study/math/focus_1a.md
+          - 数学Ⅱ+B+C: study/math/focus_2b.md
+          - 数学Ⅲ+C: study/math/focus_3c.md
   - 🗓️ Daily Log:
       - 今月の記録: daily/2026_02/index.md
       - 集中レポート: daily/2026_02/reports.md
