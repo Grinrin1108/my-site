@@ -1,6 +1,7 @@
 site_name: Grinrin's Site
 theme:
   name: material
+  language: ja
   palette:
     # ライトモード用
     - media: "(prefers-color-scheme: light)"
