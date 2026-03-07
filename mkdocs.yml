@@ -53,7 +53,9 @@ markdown_extensions:
 
 nav:
   - 🏠 Home: index.md
-  - 📅 予定表: schedule/schedule.md
+  - 📅 予定表: 
+      - スケジュール: schedule/schedule.md
+      - カレンダー: schedule/calendar.md
   - 📚 参考書管理:
       - 全体進捗: study/index.md
       - 🔵📖 数学:
