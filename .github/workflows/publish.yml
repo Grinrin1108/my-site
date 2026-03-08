@@ -16,5 +16,6 @@ jobs:
       - run: |
           pip install mkdocs-material
           pip install pymdown-extensions
-          pip install mkdocs-encryptcontent-plugin
+          # バージョンを固定して最新に近いものを入れる
+          pip install mkdocs-encryptcontent-plugin==3.0.1
       - run: mkdocs gh-deploy --force
