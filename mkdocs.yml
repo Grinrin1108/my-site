@@ -3,10 +3,7 @@ site_name: Grinrin's Site
 plugins:
   - search
   - encryptcontent:
-      password: "Hiring1108"
-      id_label: "User ID"
-      password_label: "パスワードを入力してください"
-      placeholder: "Password"
+      secret_key: "Grinrin1108"
       # 特定のファイルだけを暗号化対象にする設定
       all_pages: false
 
