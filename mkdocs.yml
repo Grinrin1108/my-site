@@ -3,9 +3,9 @@ site_name: Grinrin's Site
 plugins:
   - search
   - encryptcontent:
-      # 「secret_key」がダメなら、このプラグインの基本である「password」に戻しつつ、
-      # 認識されない原因となる余計な設定（all_pages等）を一度すべて消します。
-      password: "Grinrin1108"
+      # 最新版(3.0.1)では secret_key という名前を使います
+      secret_key: "Grinrin1108"
+      all_pages: false
 
 theme:
   name: material

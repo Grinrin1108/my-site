@@ -10,12 +10,19 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-python@v5
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
-          python-version: 3.x
-      - run: |
+          python-version: "3.12"  # 3.xではなく3.12に固定
+
+      - name: Install dependencies
+        run: |
           pip install mkdocs-material
-          pip install pymdown-extensions
-          # バージョンを固定して最新に近いものを入れる
+          # encryptcontentを最新(3.0.1)でインストール
           pip install mkdocs-encryptcontent-plugin==3.0.1
-      - run: mkdocs gh-deploy --force
+          # あなたが使っている拡張機能をすべてカバー
+          pip install pymdown-extensions
+
+      - name: Deploy to GitHub Pages
+        run: mkdocs gh-deploy --force
