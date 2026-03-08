@@ -3,9 +3,8 @@ site_name: Grinrin's Site
 plugins:
   - search
   - encryptcontent:
-      # 最新版(3.0.1)では secret_key という名前を使います
-      secret_key: "Grinrin1108"
-      all_pages: false
+      # 「secret_key」がダメなので、このプラグインの最も基本的な「password」に戻します
+      password: "Grinrin1108"
 
 theme:
   name: material
