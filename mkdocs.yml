@@ -60,27 +60,10 @@ markdown_extensions:
 
 nav:
   - 🏠 Home: index.md
-  - 📅 予定表: 
-      - スケジュール: schedule/schedule.md
-      - カレンダー: schedule/calendar.md
-  - 📚 参考書管理:
-      - 全体進捗: study/index.md
-      - 🔵📖 数学:
-          - Focus Gold 数学Ⅰ+A: study/math/focus_1a.md
-          - Focus Gold 数学Ⅱ+B+C: study/math/focus_2b.md
-          - Focus Gold 数学Ⅲ+C: study/math/focus_3c.md
-      - 🟣📖 物理:
-          - ブルー: study/physics/blue.md 
-  - 🗓️ Daily Log:
-      - 今月の記録: daily/2026_02/index.md
-      - 集中レポート: daily/2026_02/reports.md
-      - 過去のログ: daily/index.md
   - 💻 コマンド集:
       - Windowsプロンプト: commands/windows.md
       - Git操作: commands/git.md
       - Docker操作: commands/docker.md
   - 🏆 競プロ:
       - テンプレ: competitive_programming/template.md
-  - 🤖 ロボット:
-      - テンプレ: spike/template.md
   - 🔗 リンク集: link.md
