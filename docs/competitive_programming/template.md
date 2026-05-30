@@ -22,5 +22,5 @@ int main()
 ```
 
 ```Bash title = "AHC用高速コンパイル"
-g++ -O3 main.cpp -o a.exe
+g++ -O3 main.cpp -o gen.exe
 ```
