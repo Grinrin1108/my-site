@@ -25,8 +25,12 @@ int main()
 g++ -O3 main.cpp -o gen.exe
 ```
 
-```Bash title="rsリリース"
+```Bash title="visリリース"
 cargo build --release --bin vis
+```
+
+```Bash title="genリリース"
+cargo build --release --bin gen
 ```
 
 ```Bash
